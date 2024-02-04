@@ -86,4 +86,21 @@ body {
   height: 100%;
   object-fit: cover;
 }
+#arrow{
+  position:absolute;
+  top: 50%;
+  left: 51%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  padding: 30px;
+  color: white;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
 
+#arrow i{
+  font-size: 40px;
+  font-weight: lighter;
+}
