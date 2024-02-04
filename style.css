@@ -16,14 +16,36 @@ body {
   background-color: azure;
   display: grid;
   grid-template-columns: 25% 25% 50%;
-  grid-template-rows: 20% 60% 20%;
+  grid-template-rows: 30% 50% 20%;
 }
 #left-top-left {
-  background-color: rgb(224, 181, 125);
+  /* background-color: rgb(224, 181, 125); */
+  padding: 40px;
+}
+#square{
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  rotate: 45deg;
+
 }
 #left-top-right {
-  background-color: rgb(133, 117, 222);
+  /* background-color: rgb(133, 117, 222); */
+  padding: 40px;
+  justify-self: right;
+  text-align: right;
 }
+#left-top-right h4{
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#left-top-right h5{
+  color: rgba(56, 53, 53, 0.789);
+  font-size: 16px;
+  font-weight: 500;
+}
+
 #left-centre {
   background-color: rgb(221, 88, 88);
   /* grid-row: 2 /3; */
